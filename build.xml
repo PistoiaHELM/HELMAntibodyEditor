@@ -158,6 +158,11 @@
 		<zip destfile="HELMExtension-${DSTAMP}${TSTAMP}.zip" basedir="${dist}" />
 	</target>
 
+	<!-- run target -->
+    <target name="run">
+        <java jar="${dist}/${jar}" fork="true"/>
+    </target>
+	
 	<!-- clean up -->
 	<target name="clean">
 		<!-- Delete the ${build} and ${dist} directory trees -->		
