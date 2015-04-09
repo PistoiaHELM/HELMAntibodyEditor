@@ -1,4 +1,4 @@
-HELMEditor
-==========
+HELMEAntibodyEditor
+==================
 
-Repository for HELM Editor project
+The HELMAntibodyEditor is an editor based on HELM notation and the Pistoia HELM editor.
